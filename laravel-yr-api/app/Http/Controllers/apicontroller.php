@@ -33,7 +33,7 @@ foreach($forecastArray['forecast']['tabular']['time'] as $forecastTime){
 	$forecast->windSpeed = $forecastTime['windSpeed']['@name'];
 	$forecast->pressure = $forecastTime['pressure']['@value'];
 
-	$forecast->save();
+	//$forecast->save();
 }
 
 //dd($forecastArray);
